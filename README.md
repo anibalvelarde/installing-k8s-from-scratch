@@ -209,7 +209,7 @@ sudo kubeadm init
 
 
 ## Troubleshooting Notes - "no" `swap` memory is allowed!
-After this changes, when I tried issuing the `kubeadm init` command, my `kubelet` service was still failing to start.  I then saw this error:
+After these changes, when I tried issuing the `kubeadm init` command, my `kubelet` service was still failing to start.  I then saw this error:
 
 > "... failed to run Kubelet: running with swap "on" is not supported, please disable swap!"
 
